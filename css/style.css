@@ -1,0 +1,216 @@
+@font-face {
+    font-family: monserrat;
+    src: url(../assets/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: monserratnormal;
+    src: url(../assets/Montserrat-Regular.ttf);
+}
+
+.header {
+    background-color: #94B49F;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: monserratnormal;
+    color: #DF7861;
+    padding: 50px 0px;
+}
+
+header div a {
+    font-family: "monserrat";
+    text-decoration: none;
+    color: #FCF8E8;
+    padding: 3px;
+}
+
+body {
+    background-color: #FCF8E8;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 8px;
+    display: inline;
+}
+
+.fotosindex {
+    text-align: center;
+    padding: 40px 40px 130px 40px;
+
+}
+
+.fotosindex img,
+.fotosbook img {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.whatsapp {
+    width: 40px;
+    height: 40px;
+    padding: 0 20px;
+    display: inline;
+}
+
+
+
+.fotospng {
+    margin: 0 auto;
+    top: 2rem;
+    width: 100%;
+    position: relative;
+}
+
+img.imagenservicios {
+    width: 400px;
+    height: 400px;
+    display: inline;
+    border-radius: 15px;
+}
+
+.secservicios {
+    display: inline;
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
+.serviciosp {
+    position: absolute;
+    width: 50%;
+    margin: 0;
+    display: inline;
+    top: 30%;
+    padding-left: 20px;
+    color: #94B49F;
+}
+
+.sectionservicios {
+    display: block;
+    position: relative;
+    left: 10%;
+    padding: 20px;
+}
+
+img.imagenservicios2 {
+    width: 400px;
+    height: 400px;
+    display: inline;
+    border-radius: 15px;
+    position: relative;
+    left: 55%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: monserratnormal;
+    color: #94B49F;
+    padding: 50px 0px;
+}
+
+.fotosbook {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#pngavatar {
+    width: 300px;
+    height: 300px;
+}
+
+.sobremi {
+    color: #94B49F;
+    width: 400px;
+    padding: 0 0 0 150px;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+}
+
+.sectionsobremi {
+    text-align: center;
+    padding: 70px;
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: monserratnormal;
+    color: #94B49F;
+    display: inline;
+    padding: 40px 0;
+}
+
+.divmapas {
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+}
+
+.mapas {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid #94B49F;
+    margin: 20px 0 60px 0;
+
+}
+
+.sectionmapa {
+    margin: auto 0;
+    text-align: center;
+}
+
+.formclass {
+    text-align: center;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.inputcontacto,
+label {
+    display: block;
+    width: 400px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-family: monserratnormal;
+    color: #DF7861;
+}
+
+.inputcontacto {
+    border: 0;
+    background-color: #94B49F;
+    color: #FCF8E8;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#textareaform {
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.inputsubmit {
+    display: inline;
+    width: 100px;
+    margin: 20px 20px;
+    border: 0;
+    background-color: #DF7861;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 10px;
+}

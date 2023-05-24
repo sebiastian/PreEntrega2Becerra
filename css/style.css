@@ -22,23 +22,8 @@ h1 {
     padding: 50px 0px;
 }
 
-header div a {
-    font-family: "monserrat";
-    text-decoration: none;
-    color: #FCF8E8;
-    padding: 3px;
-}
-
 body {
     background-color: #FCF8E8;
-}
-
-#logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    padding: 8px;
-    display: inline;
 }
 
 .fotosindex {
@@ -47,69 +32,9 @@ body {
 
 }
 
-.fotosindex img,
-.fotosbook img {
-    width: 400px;
-    height: 400px;
-    border-radius: 5px;
-}
-
-.whatsapp {
-    width: 40px;
-    height: 40px;
-    padding: 0 20px;
-    display: inline;
-}
-
-
-
-.fotospng {
-    margin: 0 auto;
-    top: 2rem;
-    width: 100%;
-    position: relative;
-}
-
-img.imagenservicios {
-    width: 400px;
-    height: 400px;
-    display: inline;
-    border-radius: 15px;
-}
-
-.secservicios {
-    display: inline;
-}
-
 main {
     position: relative;
     top: 100px;
-}
-
-.serviciosp {
-    position: absolute;
-    width: 50%;
-    margin: 0;
-    display: inline;
-    top: 30%;
-    padding-left: 20px;
-    color: #94B49F;
-}
-
-.sectionservicios {
-    display: block;
-    position: relative;
-    left: 10%;
-    padding: 20px;
-}
-
-img.imagenservicios2 {
-    width: 400px;
-    height: 400px;
-    display: inline;
-    border-radius: 15px;
-    position: relative;
-    left: 55%;
 }
 
 h2 {
@@ -120,28 +45,10 @@ h2 {
     padding: 50px 0px;
 }
 
-.fotosbook {
-    text-align: center;
-    padding: 40px 0;
-}
 
 #pngavatar {
     width: 300px;
     height: 300px;
-}
-
-.sobremi {
-    color: #94B49F;
-    width: 400px;
-    padding: 0 0 0 150px;
-    display: inline-block;
-    position: relative;
-    bottom: 100px;
-}
-
-.sectionsobremi {
-    text-align: center;
-    padding: 70px;
 }
 
 h3 {

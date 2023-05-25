@@ -8,6 +8,10 @@
     src: url(../assets/Montserrat-Regular.ttf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 .header {
     background-color: #94B49F;
 }
@@ -50,21 +54,37 @@ body {
 main {
     margin-top: 100px;
 }
+
 #logo {
     width: 60px;
     border-radius: 50%;
 }
 
 .img-index {
-    width: 30%;
+    min-width: 100px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
 }
 
-.main_container{
+.main_container {
     height: 100%;
 }
-#pngavatar {
+
+.main_div {
+    display: flex;
+    flex-direction: row;
+}
+#copyright {
+    padding-top: 15px;
+}
+#footer{
+    background-color: #DF7861;
+    padding: 10px;
+}
+.navbar, .offcanvas {
+    background-color: #DF7861 !important;
+}
+/* #pngavatar {
     width: 300px;
     height: 300px;
 }
@@ -130,4 +150,22 @@ label {
     color: #ffffff;
     padding: 6px;
     border-radius: 10px;
+} */
+@media screen and (max-width: 680px) {
+    .main_div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-index {
+        width: 70%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #copyright {
+        font-size: 0.7rem;
+        margin: 0;
+        padding-top: 15px;
+    }
+
 }

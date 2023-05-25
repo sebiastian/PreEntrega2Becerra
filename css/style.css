@@ -78,8 +78,9 @@ main {
     padding-top: 15px;
 }
 #footer{
-    background-color: #DF7861;
+    background-color: #DF7861 !important;
     padding: 10px;
+    width: 100% !important;
 }
 .navbar, .offcanvas {
     background-color: #DF7861 !important;

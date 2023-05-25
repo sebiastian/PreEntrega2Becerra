@@ -85,6 +85,25 @@ main {
 .navbar, .offcanvas {
     background-color: #DF7861 !important;
 }
+.sectionservicios {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sectionservicios:nth-child(3n){
+    flex-direction: row-reverse;
+}
+.imagenservicios {
+    min-width: 70px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 40%;
+
+}
+p {
+    width: 50%;
+}
 /* #pngavatar {
     width: 300px;
     height: 300px;
@@ -157,7 +176,7 @@ label {
         flex-direction: column;
         align-items: center;
     }
-    .img-index {
+    .img-index , .imagenservicios {
         width: 70%;
     }
     h1 {
@@ -167,6 +186,9 @@ label {
         font-size: 0.7rem;
         margin: 0;
         padding-top: 15px;
+    }
+    .sectionservicios, .sectionservicios:nth-child(3n) {
+        flex-direction: column;
     }
 
 }

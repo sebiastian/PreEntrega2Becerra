@@ -1,0 +1,12 @@
+.fotosindex {
+    text-align: center;
+    padding: 40px 40px 130px 40px;
+
+}.img-index {
+    min-width: 100px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.main_div {
+    @include flex(row,center,center,0);
+}

@@ -1,0 +1,18 @@
+.container-fluid img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: $primario-claro !important;
+}
+
+.navbar-toggler {
+    color: $secundario-claro !important;
+    background-color: $primario-claro;
+}
+
+.navbar,
+.offcanvas {
+    background-color: $primario-oscuro !important;
+}

@@ -1,0 +1,50 @@
+.section_servicios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        'a1 a1 a2 a3'
+        'a1 a1 a2 a3'
+        'b1 b2 b3 b3'
+        'b1 b2 b3 b3';
+
+    .section_servicios_div {
+        @include flex (column,center,center,0);
+
+        & img {
+            min-width: 70px;
+            border-radius: 30px;
+            padding: 20px;
+            width: 80%;
+        }
+    }
+}
+
+.card1 {
+    grid-area: a1;
+}
+
+.card2 {
+    grid-area: a2;
+
+}
+
+.card3 {
+    grid-area: a3;
+
+}
+
+.card4 {
+    grid-area: b1;
+
+}
+
+.card5 {
+    grid-area: b2;
+
+}
+
+.card6 {
+    grid-area: b3;
+
+}

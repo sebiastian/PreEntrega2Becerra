@@ -1,0 +1,14 @@
+.sectionbook {
+    width: 100%;
+    @include flex(column,center,center,0);
+
+    .sectionbook_div {
+        display: inline-block;
+
+        & img {
+            width: 30%;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+footer {
+    background-color: $primario-oscuro !important;
+    padding: 10px;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+
+    & div span {
+        color: $primario-claro !important;
+        font-size: 0.7rem;
+        margin: 0;
+    }
+}

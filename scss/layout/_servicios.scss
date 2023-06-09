@@ -22,29 +22,41 @@
 
 .card1 {
     grid-area: a1;
+    align-self: start;
+    justify-self: center;
 }
 
 .card2 {
     grid-area: a2;
+    align-self: start;
+    justify-self: center;
 
 }
 
 .card3 {
     grid-area: a3;
+    align-self: start;
+    justify-self: center;
 
 }
 
 .card4 {
     grid-area: b1;
+    align-self: start;
+    justify-self: center;
 
 }
 
 .card5 {
-    grid-area: b2;
+    grid-area: b2; 
+    align-self: start;
+    justify-self: center;
 
 }
 
 .card6 {
     grid-area: b3;
+    align-self: start;
+    justify-self: center;
 
 }

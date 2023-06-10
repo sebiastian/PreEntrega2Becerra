@@ -1,5 +1,5 @@
 @font-face {
-  font-family: monserrat;
+  font-family: monserrat, sans-serif;
   src: url(../assets/Montserrat-ExtraBold.ttf);
 }
 @font-face {
@@ -23,6 +23,7 @@ h1 {
   padding: 50px 0px;
   text-shadow: 3px 3px 1px #9DB2BF;
   font-weight: bolder;
+  margin-top: 20px;
 }
 
 h2 {
@@ -100,29 +101,27 @@ footer ul {
 }
 
 .section_index {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   margin: 20px 0;
 }
-
-.section_index_div {
+.section_index .section_index_div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0;
   position: relative;
+  margin: 15px;
 }
-.section_index_div img {
+.section_index .section_index_div img {
   min-width: 70px;
   border-radius: 30px;
   width: 80%;
   margin: 0;
 }
-.section_index_div_overlay {
+.section_index .section_index_div_overlay {
   position: absolute;
   width: 80%;
   height: 100%;
@@ -134,18 +133,20 @@ footer ul {
   justify-content: center;
   align-items: center;
   gap: 0;
-  background-color: rgba(0, 0, 0, 0.342);
+  background-color: rgba(0, 0, 0, 0.486);
   border-radius: 30px;
   transition: 0.6 ease;
 }
-.section_index_div_overlay p {
+.section_index .section_index_div_overlay p {
   color: aliceblue;
   margin: 0;
   font-size: 2rem;
 }
-.section_index_div_overlay:hover {
+.section_index .section_index_div_overlay:hover {
   opacity: 1;
   filter: alpha(opacity=100);
+  text-align: center;
+  font-weight: bolder;
 }
 
 .sectionbook {
@@ -217,6 +218,10 @@ footer ul {
   padding: 20px;
   width: 80%;
 }
+.section_servicios .section_servicios_div p {
+  text-align: justify;
+  width: 85%;
+}
 
 .card1 {
   grid-area: a1;
@@ -266,7 +271,7 @@ footer ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 0;
+  gap: 30px;
 }
 .sectionsobremi .sectionsobremi_div img, .sectionmapa .sectionmapa_div .divmapas .sectionsobremi_div img {
   width: 300px;
@@ -314,15 +319,20 @@ footer ul {
   .imagenservicios {
     width: 70%;
   }
-  .main_div, .section_servicios,
+  .sectionbook_div, .section_servicios,
   .section_servicios:nth-child(3n),
   .sectionsobremi_div,
-  .sectionmapa_div {
+  .sectionmapa_div,
+  .section_index {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0;
+  }
+  .sectionbook_div img {
+    margin: 30px;
+    width: 70% !important;
   }
 }
 

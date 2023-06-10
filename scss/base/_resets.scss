@@ -1,5 +1,5 @@
 @font-face {
-    font-family: monserrat;
+    font-family: monserrat,sans-serif;
     src: url(../assets/Montserrat-ExtraBold.ttf);
 }
 
@@ -24,6 +24,7 @@ h1 {
     padding: 50px 0px;
     text-shadow: 3px 3px 1px $secundario-claro;
     font-weight: bolder;
+    margin-top: 20px;
 }
 
 h2 {

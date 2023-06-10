@@ -2,7 +2,7 @@
    @include flex (column,center,center,0);
 
     & .sectionsobremi_div {
-        @include flex (row,center,center,0);
+        @include flex (row,center,center,30px);
 
         & img {
             width: 300px;

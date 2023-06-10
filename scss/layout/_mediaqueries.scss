@@ -25,14 +25,20 @@
         width: 70%;
     }
     
-    .sectionbook_div, .section_servicios,
+    .sectionbook_div, 
+    .section_servicios,
     .section_servicios:nth-child(3n),
     .sectionsobremi_div,
     .sectionmapa_div,
-    .section_index{
+    .section_index,#sobremi{
     @include flex (column,center,center,0);
-}
-    .sectionbook_div img {
+    }
+
+    .sobremi {
+        width: 80%;
+    }
+
+    .sectionbook_div img{
         margin: 30px;
         width: 70% !important;
     }

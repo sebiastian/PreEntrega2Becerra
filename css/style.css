@@ -277,6 +277,10 @@ footer ul {
   width: 300px;
   height: 300px;
 }
+.sectionsobremi .sectionsobremi_div p, .sectionmapa .sectionmapa_div .divmapas .sectionsobremi_div p {
+  text-align: justify;
+  padding: 20px;
+}
 
 .sectionmapa {
   display: flex;
@@ -319,16 +323,20 @@ footer ul {
   .imagenservicios {
     width: 70%;
   }
-  .sectionbook_div, .section_servicios,
+  .sectionbook_div,
+  .section_servicios,
   .section_servicios:nth-child(3n),
   .sectionsobremi_div,
   .sectionmapa_div,
-  .section_index {
+  .section_index, #sobremi {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0;
+  }
+  .sobremi {
+    width: 80%;
   }
   .sectionbook_div img {
     margin: 30px;

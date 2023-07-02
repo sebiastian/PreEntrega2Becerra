@@ -20,26 +20,32 @@
 }
 
 @media screen and (max-width: 700px) {
+
     .img-index,
     .imagenservicios {
         width: 70%;
     }
-    
-    .sectionbook_div, 
+
+    .sectionbook_div,
     .section_servicios,
     .section_servicios:nth-child(3n),
     .sectionsobremi_div,
     .sectionmapa_div,
-    .section_index,#sobremi{
-    @include flex (column,center,center,0);
+    .section_index,
+    #sobremi {
+        @include flex (column, center, center, 0);
     }
 
     .sobremi {
         width: 80%;
     }
 
-    .sectionbook_div img{
+    .sectionbook_div img {
         margin: 30px;
         width: 70% !important;
+    }
+
+    .section_form_div {
+        flex-direction: column !important;
     }
 }

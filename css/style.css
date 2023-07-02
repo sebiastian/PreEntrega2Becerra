@@ -84,6 +84,10 @@ main {
   background-color: #27374D !important;
 }
 
+footer div span {
+  font-size: 1rem !important;
+}
+
 footer {
   background-color: #27374D;
   padding: 10px;
@@ -135,7 +139,7 @@ footer ul {
   gap: 0;
   background-color: rgba(0, 0, 0, 0.486);
   border-radius: 30px;
-  transition: 0.6 ease;
+  transition: 0.4 ease;
 }
 .section_index .section_index_div_overlay p {
   color: aliceblue;
@@ -164,6 +168,10 @@ footer ul {
   width: 30%;
   padding: 10px;
   border-radius: 15px;
+  transition: 0.4s;
+}
+.sectionbook .sectionbook_div img:hover {
+  transform: scale(1.03);
 }
 
 .section_form {
@@ -185,9 +193,19 @@ footer ul {
   outline: none;
   border: 0;
   margin: 7px 0;
+  padding: 5px;
+}
+.section_form form input::placeholder, .section_form form label::placeholder, .section_form form textarea::placeholder {
+  padding: 10px;
+}
+.section_form form label {
+  padding: 0;
 }
 .section_form form textarea {
+  width: 100%;
   height: 200px;
+  resize: none;
+  padding: 0;
 }
 .section_form form p {
   color: #27374D;
@@ -195,7 +213,11 @@ footer ul {
   text-align: center;
   width: 100%;
 }
-.section_form form input[type=reset], .section_form form input[type=submit] {
+.section_form form div {
+  display: flex;
+  flex-direction: row;
+}
+.section_form input[type=reset], .section_form input[type=submit] {
   width: 40%;
 }
 
@@ -276,6 +298,13 @@ footer ul {
 .sectionsobremi .sectionsobremi_div img, .sectionmapa .sectionmapa_div .divmapas .sectionsobremi_div img {
   width: 300px;
   height: 300px;
+  border-radius: 100%;
+  border: 10px solid #27374D;
+  transition: 0.7s;
+}
+.sectionsobremi .sectionsobremi_div img:hover, .sectionmapa .sectionmapa_div .divmapas .sectionsobremi_div img:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #526D82;
 }
 .sectionsobremi .sectionsobremi_div p, .sectionmapa .sectionmapa_div .divmapas .sectionsobremi_div p {
   text-align: justify;
@@ -328,7 +357,8 @@ footer ul {
   .section_servicios:nth-child(3n),
   .sectionsobremi_div,
   .sectionmapa_div,
-  .section_index, #sobremi {
+  .section_index,
+  #sobremi {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,6 +371,9 @@ footer ul {
   .sectionbook_div img {
     margin: 30px;
     width: 70% !important;
+  }
+  .section_form_div {
+    flex-direction: column !important;
   }
 }
 

@@ -1,11 +1,13 @@
 .section_form {
-   @include flex(column,center,center,0);
+    @include flex(column, center, center, 0);
 
     & form {
         width: 50%;
         text-align: center;
 
-        & input, & label, & textarea {
+        & input,
+        & label,
+        & textarea {
             width: 100%;
             font-family: monserratnormal;
             color: $secundario-oscuro;
@@ -13,11 +15,22 @@
             outline: none;
             border: 0;
             margin: 7px 0;
-            
+            padding: 5px;
+
+            &::placeholder {
+                padding: 10px;
+            }
+        }
+
+        & label {
+            padding: 0;
         }
 
         & textarea {
+            width: 100%;
             height: 200px;
+            resize: none;
+            padding: 0;
         }
 
         & p {
@@ -27,65 +40,15 @@
             width: 100%;
         }
 
-        & input[type=reset], & input[type=submit]{
-            width: 40%;
-
+        & div {
+            display: flex;
+            flex-direction: row;
         }
     }
+
+    & input[type=reset],
+    & input[type=submit] {
+        width: 40%;
+
+    }
 }
-
-
-
-
-
-// .inputcontacto,
-// label {
-//     display: block;
-//     width: auto;
-//     margin: 10px 0;
-//     font-size: 1.2rem;
-//     font-family: monserratnormal;
-//     color: var(--secundario-oscuro);
-// }
-
-// .labelcheckbox {
-//     text-align: center;
-// }
-
-// .inputcontacto {
-//     border: 0;
-//     background-color: var(--secundario-oscuro);
-//     color: var(--primario-claro);
-//     padding: 6px;
-//     border-radius: 10px;
-//     outline: none;
-// }
-
-// #textareaform {
-//     display: block;
-//     width: 100%;
-//     height: 200px;
-//     margin: 10px 0;
-// }
-
-// .inputcontacto,
-// .textarea_label {
-//     width: 75%;
-//     max-width: 500px;
-// }
-
-// .inputsubmit {
-//     display: inline;
-//     width: 100px;
-//     margin: 20px 20px;
-//     border: 0;
-//     background-color: var(--secundario-oscuro);
-//     color: #ffffff;
-//     padding: 6px;
-//     border-radius: 10px;
-// }
-
-// ::placeholder {
-//     color: var(--secundario-claro);
-//     text-align: center;
-// }

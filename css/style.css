@@ -296,8 +296,7 @@ footer ul {
   gap: 30px;
 }
 .sectionsobremi .sectionsobremi_div img, .sectionmapa .sectionmapa_div .divmapas .sectionsobremi_div img {
-  width: 300px;
-  height: 300px;
+  width: 280px;
   border-radius: 100%;
   border: 10px solid #27374D;
   transition: 0.7s;

@@ -49,3 +49,31 @@
         flex-direction: column !important;
     }
 }
+
+@media screen and (max-width: 420px) {
+    footer {
+        display: flex !important;
+        flex-direction: column !important;
+
+        & div {
+            width: 100%;
+
+            & span {
+                width: 100%;
+                display: inline !important;
+                text-align: center !important;
+                align-items: center;
+                margin: 0 !important;
+            }
+        }
+
+        & ul {
+            display: inline;
+            justify-content: flex-end;
+            padding:5px ;
+            margin-bottom: 3px;
+            margin-right: 0 !important;
+        }
+    }
+
+}
